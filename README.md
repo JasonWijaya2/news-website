@@ -15,12 +15,12 @@ Here are the steps to run a GitHub repository locally on your pc:
    - Open a terminal or command prompt.
    - Run the git clone command in the terminal, adding the repository URL after it.
     ```
-    git clone https://github.com/username/repository.git
+    git clone https://github.com/JasonWijaya2/news-website.git
     ```
 2. Navigate to the Directory:
    - Change into the newly created project directory.
     ```
-    cd repository
+    cd news-website
     ```
 3. Install Dependencies:
    - Ensure you have the necessary software and dependencies to run the project. Typically, configuration files like package.json or requirements.txt will inform you about project dependencies.
