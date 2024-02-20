@@ -54,7 +54,7 @@ const handleCountryChange = (e) => {
         {articles.slice(startIndex, endIndex).map((news, index) => (
           <div className="align-items-center p-3" key={index}>
             <div className="card">
-              <Link to={`/detail/${encodeURIComponent(news.title)}`} className="card-body" style={{ textDecoration:'none' }}>
+              <Link to={news.url} target='_blank' className="card-body" style={{ textDecoration:'none' }}>
                 <h5 className="card-title">{news.title}</h5>
               </Link>
             </div>

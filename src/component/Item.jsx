@@ -1,11 +1,11 @@
 import noImage from "../assets/news.jpg"
 import { Link } from "react-router-dom"
 
-export const Item = ({ title, description, src, uniqueIdentifier }) => {
+export const Item = ({ title, description, src, uniqueIdentifier, url }) => {
 
   return (
     <Link
-      to={`/detail/${encodeURIComponent(uniqueIdentifier)}`}
+      to={url}
       target="_blank"
       className="card text-bg-dark m-1"
       style={{ textDecoration: "none" }}
